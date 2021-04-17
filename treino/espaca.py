@@ -31,8 +31,6 @@ def espaca(frase,palavras):
                 escolhida = "".join(escolhida)
                 outraa = apaga(escolhida, frase)
                 res += escolhida +" "
-
-
             if len(outraa) >= 1:
                 res += espaca(outra,palavras)
 

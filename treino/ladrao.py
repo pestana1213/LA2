@@ -17,7 +17,6 @@ def ladrao(capacidade,objectos):
     for nome, valor, peso in objectos:
         k.append(aux(nome,valor,peso,capacidade,objectos))
 
-
     return max(k)
 
 def aux(nome, valor, peso, capacidade, objetos):
