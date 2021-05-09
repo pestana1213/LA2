@@ -13,9 +13,9 @@ def valid(n,d,tentativa):
     stri = ""
     for k in tentativa: 
         stri.join(str(k))
-    print(stri)
-    return -1
- 
+    if (int)(stri) % d != 0:
+        return False
+    return True
     
 def extensions(n,d,tentativa): 
     res = []
